@@ -6,6 +6,7 @@ import Tickets from './Components/Tickets'
 import Schedule from './Components/Schedule'
 import Highlights from './Components/Highlights'
 import ContactSection from './Components/ContactSection'
+import SponsorsSection from './Components/SponsorsSection'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Schedule />
       <Highlights />
       <ContactSection />
+      <SponsorsSection />
     </div>
   )
 }

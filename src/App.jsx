@@ -5,6 +5,7 @@ import Lineup from './Components/Lineup'
 import Tickets from './Components/Tickets'
 import Schedule from './Components/Schedule'
 import Highlights from './Components/Highlights'
+import ContactSection from './Components/ContactSection'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Tickets />
       <Schedule />
       <Highlights />
+      <ContactSection />
     </div>
   )
 }

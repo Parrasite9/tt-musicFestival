@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import Lineup from './Components/Lineup'
 import Tickets from './Components/Tickets'
 import Schedule from './Components/Schedule'
+import Highlights from './Components/Highlights'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Lineup />
       <Tickets />
       <Schedule />
+      <Highlights />
     </div>
   )
 }

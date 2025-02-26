@@ -3,7 +3,7 @@ import artists from './Data/Artists'
 
 function Lineup() {
   return (
-    <section className='bg-myLight py-16 px-8'>
+    <section id='lineup' className='bg-myLight py-16 px-8'>
       <h2 className='text-5xl font-headline text-center text-myPurple mb-10 tracking-wide'>Festival Lineup</h2>
 
       <div className="grid grid-cols-3 gap-8 max-w-7xl mx-auto">

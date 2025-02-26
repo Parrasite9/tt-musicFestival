@@ -4,7 +4,7 @@ import ticketBG from '/images/ticketBg.jpg'
 
 function Tickets() {
   return (
-    <section className='relative py-20 px-8 bg-myLight'>
+    <section id='tickets' className='relative py-20 px-8 bg-myLight'>
         {/* BACKGROUND IMAGE  */}
       <img 
         src={ticketBG} 

@@ -6,7 +6,7 @@ function Highlights() {
     const [selectedVideo, setSelectedVideo] = useState(null)
 
   return (
-    <section className='py-20 px-8 bg-myLight'>
+    <section id='highlights' className='py-20 px-8 bg-myLight'>
       <h2 className='text-5xl font-headline text-center text-myPurple mb-12 tracking-wide'>Festival Highlights</h2>
 
       <div className="grid grid-cols-5 gap-6 max-w-7xl mx-auto">

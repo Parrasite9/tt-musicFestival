@@ -22,7 +22,7 @@ function ContactSection() {
 
 
   return (
-    <section className='py-20 px-8 bg-myGold text-myDark'>
+    <section id='contact' className='py-20 px-8 bg-myGold text-myDark'>
       <h2 className='text-5xl font-headline text-center mb-8 tracking-wide'>Contact Us</h2>
       <p className='text-center mb-12 max-w-2xl mx-auto'>Got question or feedback? Reach out to us or subscribe to our newsletter for the latest festival updates!</p>
       

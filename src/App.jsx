@@ -7,6 +7,7 @@ import Schedule from './Components/Schedule'
 import Highlights from './Components/Highlights'
 import ContactSection from './Components/ContactSection'
 import SponsorsSection from './Components/SponsorsSection'
+import LocationSection from './Components/LocationSection'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Highlights />
       <ContactSection />
       <SponsorsSection />
+      <LocationSection />
     </div>
   )
 }

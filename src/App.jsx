@@ -8,6 +8,7 @@ import Highlights from './Components/Highlights'
 import ContactSection from './Components/ContactSection'
 import SponsorsSection from './Components/SponsorsSection'
 import LocationSection from './Components/LocationSection'
+import FAQSection from './Components/FAQSection'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ContactSection />
       <SponsorsSection />
       <LocationSection />
+      <FAQSection />
     </div>
   )
 }

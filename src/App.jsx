@@ -10,6 +10,7 @@ import SponsorsSection from './Components/SponsorsSection'
 import LocationSection from './Components/LocationSection'
 import FAQSection from './Components/FAQSection'
 import CallToAction from './Components/CallToAction'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <LocationSection />
       <FAQSection />
       <CallToAction />
+      <Footer />
     </div>
   )
 }
